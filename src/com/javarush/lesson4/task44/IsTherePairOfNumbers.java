@@ -18,6 +18,7 @@ public class IsTherePairOfNumbers {
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 //TODO: доделать!!
+                int a = 0;
             }
         }
     }
