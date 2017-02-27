@@ -1,4 +1,4 @@
-package com.javarush.lesson4.task44;
+package com.javarush.lesson4.task46;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

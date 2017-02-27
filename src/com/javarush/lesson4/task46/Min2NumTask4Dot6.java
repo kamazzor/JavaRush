@@ -1,4 +1,4 @@
-package com.javarush.lesson4.task44;
+package com.javarush.lesson4.task46;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -8,7 +8,7 @@ import java.util.Scanner;
  * Ввести с клавиатуры два числа, и вывести на экран минимальное из них.
  Если два числа равны между собой, необходимо вывести любое.
  */
-public class Min2NumTask44 {
+public class Min2NumTask4Dot6 {
     public static void main(String[] args) throws IOException{
             //BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
             //int a = Integer.parseInt(reader.readLine());

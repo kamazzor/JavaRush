@@ -60,6 +60,10 @@ public class IsTherePairOfNumbers {
         for (int i = 0; i < data.size(); i++) {
             for (int j = i+1; j < data.size(); j++) {
 
+=======
+            for (int j = 0; j < 3; j++) {
+                //TODO: доделать!!
+>>>>>>> parent of 32cd144... My solutions from February 25th
             }
         }
         System.out.println(multimas);*/
