@@ -1,4 +1,4 @@
-package com.javarush.lesson5.task0505;
+package com.javarush.lesson5.task0505.problem04;
 
 /**
  * Created by Arsen on 28.02.2017.
@@ -7,7 +7,7 @@ package com.javarush.lesson5.task0505;
  * класса Cat, а точнее — основываясь на нём, как на шаблоне. Их — котов —
  * должно быть трое. Наполните этих троих жизнью, то есть, конкретными данными.
  */
-public class Knitwear {
+public class Solution {
     public static void main(String[] args) {
         //напишите тут ваш код
         Cat cat1 = new Cat("Vaska", 10, 10, 20);

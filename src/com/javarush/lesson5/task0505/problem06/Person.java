@@ -1,4 +1,4 @@
-package com.javarush.lesson5.task0505;
+package com.javarush.lesson5.task0505.problem06;
 
 /**
  * Created by Arsen on 28.02.2017.

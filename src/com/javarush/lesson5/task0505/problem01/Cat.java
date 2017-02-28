@@ -1,4 +1,4 @@
-package com.javarush.lesson5.task0505;
+package com.javarush.lesson5.task0505.problem01;
 
 /**
  * Created by Arsen on 28.02.2017.
@@ -8,7 +8,7 @@ package com.javarush.lesson5.task0505;
  * вес (weight, int),
  * сила (strength, int).
  */
-public class CatCreating {
+public class Cat {
     private String name;
     private int age, weight, strength;
 

@@ -1,4 +1,4 @@
-package com.javarush.lesson5.task0505;
+package com.javarush.lesson5.task0505.problem08;
 
 /**
  * Created by Arsen on 28.02.2017.
@@ -8,7 +8,7 @@ package com.javarush.lesson5.task0505;
  * пол char sex.
  Создайте геттеры и сеттеры для всех переменных класса Person.
  */
-public class GetterAndSetterForPerson {
+public class Person {
     private String name;
     private int age;
     private char sex;

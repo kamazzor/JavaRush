@@ -1,0 +1,22 @@
+Branches:
+----------Long life cycle----------
+
+---Master---
+Commit == Release;
+Commits are ever tagged;
+Release version only;
+
+---Develop---
+It's the main branch for develop;
+It contains all secondary branches;
+Actual code ever for next release;
+[Optional] Daily/nightly builds;
+
+----------Short life cycle----------
+/*Specially for debugging*/
+
+---Feature---
+
+---Release---
+
+---HotFix---

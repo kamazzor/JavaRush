@@ -1,4 +1,4 @@
-package com.javarush.lesson5.task0507;
+package com.javarush.lesson5.task0507.problem06;
 
 /**
  * Created by Arsen on 28.02.2017.
@@ -9,7 +9,7 @@ package com.javarush.lesson5.task0507;
  В методе main создай объект Person, занеси его ссылку в переменную person.
  Вызови метод initialize с любыми значениями.
  */
-public class ProgrammerMakePerson {
+public class Person {
     public static void main(String[] args) {
         Person person = new Person();
         person.initialize("Miko", 25);

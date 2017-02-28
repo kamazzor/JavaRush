@@ -1,4 +1,4 @@
-package com.javarush.lesson5.task0505;
+package com.javarush.lesson5.task0505.problem07;
 
 import java.util.ArrayList;
 import java.util.Scanner;

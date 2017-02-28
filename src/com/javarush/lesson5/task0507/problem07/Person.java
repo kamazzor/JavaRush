@@ -1,4 +1,4 @@
-package com.javarush.lesson5.task0507;
+package com.javarush.lesson5.task0507.problem07;
 
 /**
  * Created by Arsen on 28.02.2017.
@@ -6,7 +6,7 @@ package com.javarush.lesson5.task0507;
  Исправь класс так, чтобы только один метод initialize
  инициализировал все переменные класса Person.
  */
-public class ObjectsInit {
+public class Person {
     String name;
     char sex;
     int money;

@@ -1,4 +1,4 @@
-package com.javarush.lesson5.task0505;
+package com.javarush.lesson5.task0505.problem05;
 
 /**
  * Created by Arsen on 28.02.2017.
@@ -7,7 +7,7 @@ package com.javarush.lesson5.task0505;
  Класс Cat создавать не надо. Для боя использовать метод boolean fight(Cat anotherCat).
  Результат каждого боя вывести на экран c новой строки.
  */
-public class CatsFight {
+public class Solution {
     public static void main(String[] args) {
         //напишите тут ваш код
         Cat cat1 = new Cat("Vaska", 10, 10, 20);
