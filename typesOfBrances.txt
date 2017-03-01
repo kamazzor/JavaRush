@@ -1,4 +1,10 @@
-Branches:
+Branches (gitflow conception):
+	Additional info read in "Everyday Git With 20 Commands or so". 
+	There is commands for:
+		1. Individual developer (Standalone)
+		2. Individual developer (Participant)
+		3. Integrator
+		4. Administrator
 
 ----------Long life cycle----------
 
@@ -17,7 +23,20 @@ Actual code ever for next release;
 /*Specially for debugging*/
 
 ---Feature---
+Here is developing some functionality for next release;
+Here is a middle life cycle;
+This branch generated from Develop and merged in Develop too;
+It's always stored in remote repository, not origin;
 
 ---Release---
+[Main Goal]: preparation for release;
+This branch generated from Develop at the time all features is almost done;
+You will need to set up a build number at creation time of this branch;
+Bug fix resolved only;
+All editions inserted back to Develop;
+Some general editions can be inserted to master;
 
----HotFix---
+---HotFix(bugFix)---
+ [Main difference from Release branch]:
+ This branch generated from MASTER but can merged in MASTER and DEVELOP ;
+ All HotFix commits added to Develop for sure;
