@@ -17,7 +17,7 @@ import java.util.ListIterator;
  */
 public class SolutionNotWorkOnJR {
     public static void main(String[] args) throws Exception{
-        //debig info
+        //debug info
         /*
         InputData.list.add("a");
         InputData.list.add("aa");

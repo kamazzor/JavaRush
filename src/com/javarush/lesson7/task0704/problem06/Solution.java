@@ -24,7 +24,7 @@ public class Solution {
     //private static int[] population = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
 
     public static void main(String[] args) throws Exception{
-        population = initializeArray();
+        population = initializeArrayInt(15);
         getWinSide(population);
     }
 
@@ -45,10 +45,10 @@ public class Solution {
         }
     }
 
-    private static int[] initializeArray() throws Exception{
+    private static int[] initializeArrayInt(int n) throws Exception{
         Reader reader = new InputStreamReader(System.in);
         BufferedReader r = new BufferedReader(reader);
-        int[] mas = new int[15];
+        int[] mas = new int[n];
         for (int i = 0; i < mas.length; i++) {
             mas[i]=Integer.parseInt(r.readLine());
         }

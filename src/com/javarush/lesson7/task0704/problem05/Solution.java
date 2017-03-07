@@ -24,7 +24,7 @@ public class Solution {
     private static int[] nums2 = new int[10];
 
     public static void main(String[] args) throws Exception{
-        nums = initializeNums();
+        nums = initializeArrayInt(20);
         nums1 = subArray(nums, 0, nums.length/2-1);
         nums2 = subArray(nums, nums.length/2, nums.length-1);
         outputNums(nums2);
@@ -37,11 +37,11 @@ public class Solution {
         }
     }
 
-    private static int[] initializeNums() throws Exception{
+    private static int[] initializeArrayInt(int n) throws Exception{
         InputStream inputStream = System.in;
         BufferedReader r = new BufferedReader(new InputStreamReader(inputStream));
-        int[] mas = new int[20];
-        for (int i = 0; i < 20; i++) {
+        int[] mas = new int[n];
+        for (int i = 0; i < mas.length; i++) {
             mas[i]=Integer.parseInt(r.readLine());
         }
         return mas;

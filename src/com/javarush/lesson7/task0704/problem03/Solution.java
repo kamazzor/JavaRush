@@ -16,7 +16,7 @@ import java.io.InputStreamReader;
  */
 public class Solution {
     public static void main(String[] args) throws Exception{
-        String[] strs = initializeArray();
+        String[] strs = initializeArrayString(10);
         int[] lengths = fillLengths(strs);
         outputLengths(lengths);
     }
@@ -27,10 +27,10 @@ public class Solution {
         }
     }
 
-    private static String[] initializeArray() throws Exception{
+    private static String[] initializeArrayString(int n) throws Exception{
         InputStream inputStream = System.in;
         BufferedReader r = new BufferedReader(new InputStreamReader(inputStream));
-        String[] strings = new String[10];
+        String[] strings = new String[n];
         for (int i = 0; i < strings.length; i++) {
             strings[i] = r.readLine();
         }

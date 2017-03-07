@@ -16,14 +16,14 @@ import java.util.ArrayList;
 public class Solution {
     public static void main(String[] args) throws Exception{
         ArrayList<Integer> list = new ArrayList<>();
-        initializeList(list);
+        initializeListInt(list, 10);
         printRevList(list);
     }
 
-    public static void initializeList(ArrayList<Integer> ls) throws Exception{
+    public static void initializeListInt(ArrayList<Integer> ls, int n) throws Exception{
         InputStream inputStream = System.in;
         BufferedReader r = new BufferedReader(new InputStreamReader(inputStream));
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < n; i++) {
             ls.add(Integer.parseInt(r.readLine()));
         }
     }

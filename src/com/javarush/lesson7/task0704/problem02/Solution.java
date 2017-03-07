@@ -15,7 +15,7 @@ import java.io.InputStreamReader;
  */
 public class Solution {
     public static void main(String[] args) throws Exception {
-        String[] array = initializeArray();
+        String[] array = initializeArrayString(10);
         arrayOutput(array);
     }
 
@@ -25,13 +25,15 @@ public class Solution {
         }
     }
 
-    public static String[] initializeArray() throws IOException {
+    public static String[] initializeArrayString(int n) throws IOException {
         InputStream inputStream = System.in;
         BufferedReader r = new BufferedReader(new InputStreamReader(inputStream));
-        String[] mas = new String[10];
-        /*for (int i = 0; i < mas.length; i++) {
+        String[] mas = new String[n];
+/*
+        for (int i = 0; i < mas.length; i++) {
             mas[i] = null;
-        }*/
+        }
+*/
 
         for (int i = 0; i < 8; i++) {
             mas[i]=r.readLine();

@@ -14,16 +14,16 @@ import java.io.InputStreamReader;
  */
 public class Solution {
     public static void main(String[] args) throws Exception {
-        int[] array = initializeArray();
+        int[] array = initializeArrayInt(20);
         int max = max(array);
         System.out.println(max);
     }
 
-    public static int[] initializeArray() throws IOException {
+    public static int[] initializeArrayInt(int n) throws IOException {
         InputStream inputStream = System.in;
         BufferedReader r = new BufferedReader(new InputStreamReader(inputStream));
-        int[] mas = new int[20];
-        for (int i = 0; i < mas.length; i++) {
+        int[] mas = new int[n];
+        for (int i = 0; i < n; i++) {
             mas[i]=Integer.parseInt(r.readLine());
         }
         return mas;

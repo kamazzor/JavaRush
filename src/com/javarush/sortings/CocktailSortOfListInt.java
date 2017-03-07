@@ -16,7 +16,7 @@ public class CocktailSortOfListInt {
             swapped = false;
             for (i = countBack; i < mas.size() - 1 - countForw; i++) {
                 //System.out.print(i + " "); //debug info
-                if (mas.get(i).compareTo(mas.get(i + 1)) > 0) {
+                if (mas.get(i).compareTo(mas.get(i + 1)) < 0) {
                     //test whether the two elements are in the wrong order
                     Collections.swap(mas, i, i + 1);
                     swapped = true;
@@ -32,7 +32,7 @@ public class CocktailSortOfListInt {
             swapped = false;
             for (i = mas.size() - 2 - countForw; i >= countBack; i--) {
                 //System.out.print(i + " "); //debug info
-                if (mas.get(i).compareTo(mas.get(i + 1)) > 0) {
+                if (mas.get(i).compareTo(mas.get(i + 1)) < 0) {
                     //test whether the two elements are in the wrong order
                     Collections.swap(mas, i, i + 1);
                     swapped = true;

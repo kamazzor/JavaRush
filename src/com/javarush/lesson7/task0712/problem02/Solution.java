@@ -45,12 +45,12 @@ public class Solution {
     }
 
 /*
-    public static void initializeListString(ArrayList<String> ls) throws Exception{
+    public static void initializeListString(ArrayList<String> ls, int n) throws Exception{
         InputStream inputStream = System.in;
         BufferedReader r = new BufferedReader(new InputStreamReader(inputStream));
         InputData.N = Integer.parseInt(r.readLine());
         InputData.M = Integer.parseInt(r.readLine());
-        for (int i = 0; i < InputData.N; i++) {
+        for (int i = 0; i < n; i++) {
             ls.add(r.readLine());
         }
     }

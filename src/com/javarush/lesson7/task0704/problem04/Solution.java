@@ -13,7 +13,7 @@ import java.io.InputStreamReader;
  */
 public class Solution {
     public static void main(String[] args) throws Exception{
-        int[] nums = initializeArray();
+        int[] nums = initializeArrayInt(10);
         reverseArray(nums);
         outputReversedArray(nums);
     }
@@ -27,14 +27,14 @@ public class Solution {
         }
     }
 
-    private static int[] initializeArray() throws Exception{
+    private static int[] initializeArrayInt(int n) throws Exception{
         InputStream inputStream = System.in;
         BufferedReader r = new BufferedReader(new InputStreamReader(inputStream));
 
         //debug info
         //int[] numbers = {1,2,3,4,5,6,7,8,9,10};
 
-        int[] numbers = new int[10];
+        int[] numbers = new int[n];
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = Integer.parseInt(r.readLine());
         }
