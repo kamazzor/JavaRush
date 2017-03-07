@@ -8,7 +8,7 @@ import java.util.*;
  */
 public class CocktailSortOfListInt {
     //descending cocktail sorting
-    public static void cocktailSort(List<Integer> mas) {
+    public static List<Integer> cocktailSort(List<Integer> mas) {
         int temp, i = 0;
         int countForw = 0, countBack = 0;
         boolean swapped = false;
@@ -16,7 +16,7 @@ public class CocktailSortOfListInt {
             swapped = false;
             for (i = countBack; i < mas.size() - 1 - countForw; i++) {
                 //System.out.print(i + " "); //debug info
-                if (mas.get(i).compareTo(mas.get(i + 1)) < 0) {
+                if (mas.get(i).compareTo(mas.get(i + 1)) > 0) {
                     //test whether the two elements are in the wrong order
                     Collections.swap(mas, i, i + 1);
                     swapped = true;
@@ -32,7 +32,7 @@ public class CocktailSortOfListInt {
             swapped = false;
             for (i = mas.size() - 2 - countForw; i >= countBack; i--) {
                 //System.out.print(i + " "); //debug info
-                if (mas.get(i).compareTo(mas.get(i + 1)) < 0) {
+                if (mas.get(i).compareTo(mas.get(i + 1)) > 0) {
                     //test whether the two elements are in the wrong order
                     Collections.swap(mas, i, i + 1);
                     swapped = true;
@@ -44,9 +44,7 @@ public class CocktailSortOfListInt {
             //if no elements have been swapped, then the list is sorted
         } while (swapped);
         //sout sorted array
-        for (i = 0; i < mas.size(); i++) {
-            System.out.print(mas.get(i) + " ");
-        }
+        return mas;
     }
 }
     //Code for test

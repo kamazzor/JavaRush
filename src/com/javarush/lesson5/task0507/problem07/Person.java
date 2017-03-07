@@ -2,9 +2,9 @@ package com.javarush.lesson5.task0507.problem07;
 
 /**
  * Created by Arsen on 28.02.2017.
- * Изучи внимательно класс Person.
+ * Изучи внимательно класс Solution.
  Исправь класс так, чтобы только один метод initialize
- инициализировал все переменные класса Person.
+ инициализировал все переменные класса Solution.
  */
 public class Person {
     String name;

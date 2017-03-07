@@ -2,7 +2,7 @@ package com.javarush.lesson5.task0505.problem06;
 
 /**
  * Created by Arsen on 28.02.2017.
- * Создать class Person. У человека должно быть
+ * Создать class Solution. У человека должно быть
  * имя String name,
  * возраст int age,
  * адрес String address,
