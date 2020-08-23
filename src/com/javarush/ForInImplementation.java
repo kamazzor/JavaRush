@@ -1,6 +1,8 @@
+package com.javarush;
+
 /**
  * Created by Arsen on 15.02.2017.
- * Реализация цикла for/in
+ * For/in cycle Implementation
  */
 public class ForInImplementation {
     public static void main(String[] args){
